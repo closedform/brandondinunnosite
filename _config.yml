@@ -114,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             : "Brandon DiNunno"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  avatar           : "/assets/images/bio-photo.jpeg"
+  bio              : "I am physicist-turned-quant who enjoys solving technical problems"
   location         : "New York, NY."
   email            :
   links:
@@ -124,10 +124,10 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      # url: "https://www.brandondinunno.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      # url: "https://github.com/closedform"
 
 # Site Footer
 footer:
