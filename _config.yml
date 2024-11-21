@@ -17,20 +17,20 @@ minimal_mistakes_skin    : "aqua" #"default" # "air", "aqua", "contrast", "dark"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Brandon S. DiNunno"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Brandon S. DiNunno"
+description              : "Former physicist specializing in holography/gravity turned quant"
 url                      : "https://brandondinunno.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "closedform/brandondinunnosite"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : true # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
@@ -117,7 +117,12 @@ author:
   avatar           : "/assets/images/bio-photo.jpeg"
   bio              : "I am physicist-turned-quant who enjoys solving technical problems"
   location         : "New York, NY."
+  github           : "closedform"
   email            :
+  arxiv            : ""
+  orcid            : ""
+  inspire          : ""
+  google-scholar   : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -127,7 +132,7 @@ author:
       # url: "https://www.brandondinunno.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/closedform"
+      #url: "https://github.com/closedform"
 
 # Site Footer
 footer:
@@ -202,7 +207,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
